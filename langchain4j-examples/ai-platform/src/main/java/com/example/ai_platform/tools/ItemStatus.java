@@ -17,7 +17,7 @@ public class ItemStatus {
                     "IT009", "Approved");
 
 
-    @Tool
+    @Tool("Get ths status of the item given its ID")
     String getItemStatus(String item){
         return MockStatus.getOrDefault(item, "Pending");
     }
