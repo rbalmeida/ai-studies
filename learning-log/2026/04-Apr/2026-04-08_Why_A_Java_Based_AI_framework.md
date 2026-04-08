@@ -22,7 +22,7 @@ For that, the chat assitant could be enhanced with tools integrated with the cor
 
 In this sample code I used a mock, but it could be an api or query on a real system.
 
-[ItemStatus.java](/langchain4j-examples/ai-platform/src/main/java/com/example/ai_platform/ItemStatus.java)
+[ItemStatus.java](/langchain4j-examples/ai-platform/src/main/java/com/example/ai_platform/tools/ItemStatus.java)
 
 With the High level API @Tool we declare a tool that can be used by the LLM model.
 ```java
