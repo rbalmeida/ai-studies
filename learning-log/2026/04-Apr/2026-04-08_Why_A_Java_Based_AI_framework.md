@@ -15,14 +15,14 @@ I've read thru the documentation and samples and I was able to understand and im
 The integration with Spring Boot is also a very positive factor, I was able to evolve naturally Spring Boot based applications with the addition of AI Components from the LangChain4j framework. In a couple of days I was able to implement some initial POCs with very good results and thats a very positive factor and usable resource to adopt in existing enterprise Java systems, like the complex ERPs and other back-office platforms I've been working for the last decades.
 
 ## Some initial POCs I've made
-Some examples with chat assistants are here: [Root Directory]/langchain4j-examples/ai-platform/src/main/java/com/example/ai_platform/
+Some examples with chat assistants are here: [langchain4j-examples](./langchain4j-examples/ai-platform/src/main/java/com/example/ai_platform/)
 
 One great idea is to facilitate the end user interaction in complex systems. For example for a quick query on the status of a transaction could be obtained in a chat assistant, instead of going thru a series of menus and interfaces.
 For that, the chat assitant could be enhanced with tools integrated with the core systems.
 
 In this sample code I used a mock, but it could be an api or query on a real system.
 
-[Root Directory]/langchain4j-examples/ai-platform/src/main/java/com/example/ai_platform/ItemStatus.java
+[ItemStatus.java](./langchain4j-examples/ai-platform/src/main/java/com/example/ai_platform/ItemStatus.java)
 
 With the High level API @Tool we declare a tool that can be used by the LLM model.
 ```java
