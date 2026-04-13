@@ -4,7 +4,8 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/langchain4j-examples/ai-platform/pom.xml" />
+        <option value="$PROJECT_DIR$/langchain4j-examples/ai-agents/pom.xml" />
+        <option value="$PROJECT_DIR$/langchain4j-examples/ai-services/pom.xml" />
       </list>
     </option>
   </component>

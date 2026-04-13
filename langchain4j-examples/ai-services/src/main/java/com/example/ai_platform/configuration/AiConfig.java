@@ -23,7 +23,7 @@ public class AiConfig {
     ChatLanguageModel chatLanguageModel(ToolUsageListener toolUsageListener) {
         return OllamaChatModel.builder()
                 .baseUrl("http://localhost:11434") // Default Ollama port
-                .modelName("llama3.1")               // Or your preferred model
+                .modelName("gemma4")               // Or your preferred model
                 .listeners(Collections.singletonList(toolUsageListener))
                 .build();
     }
