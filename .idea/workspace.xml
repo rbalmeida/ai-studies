@@ -5,35 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4b02591-49c2-4758-a8e0-399cf58a8028" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/langchain4j-examples/ai-agents/src/main/java/com/example/ai_agents/agents/CreativeWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/langchain4j-examples/ai-services/src/main/java/com/example/ai_platform/configuration/AiConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/langchain4j-examples/ai-platform/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/langchain4j-examples/ai-services/.gitattributes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/langchain4j-examples/ai-platform/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/langchain4j-examples/ai-services/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/langchain4j-examples/ai-platform/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/langchain4j-examples/ai-services/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/langchain4j-examples/ai-platform/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/langchain4j-examples/ai-services/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/langchain4j-examples/ai-platform/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/langchain4j-examples/ai-services/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/langchain4j-examples/ai-platform/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/langchain4j-examples/ai-services/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/langchain4j-examples/ai-platform/src/main/java/com/example/ai_platform/AiPlatformApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/langchain4j-examples/ai-services/src/main/java/com/example/ai_platform/AiServicesApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/langchain4j-examples/ai-platform/src/main/java/com/example/ai_platform/configuration/AiConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/langchain4j-examples/ai-agents/src/main/java/com/example/ai_agents/configuration/AiConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/langchain4j-examples/ai-platform/src/main/java/com/example/ai_platform/controllers/AssistantController.java" beforeDir="false" afterPath="$PROJECT_DIR$/langchain4j-examples/ai-services/src/main/java/com/example/ai_platform/controllers/AssistantController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/langchain4j-examples/ai-platform/src/main/java/com/example/ai_platform/observability/ToolUsageListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/langchain4j-examples/ai-services/src/main/java/com/example/ai_platform/observability/ToolUsageListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/langchain4j-examples/ai-platform/src/main/java/com/example/ai_platform/services/Assistant.java" beforeDir="false" afterPath="$PROJECT_DIR$/langchain4j-examples/ai-services/src/main/java/com/example/ai_platform/services/Assistant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/langchain4j-examples/ai-platform/src/main/java/com/example/ai_platform/services/AssistantWithMemory.java" beforeDir="false" afterPath="$PROJECT_DIR$/langchain4j-examples/ai-services/src/main/java/com/example/ai_platform/services/AssistantWithMemory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/langchain4j-examples/ai-platform/src/main/java/com/example/ai_platform/services/MathAssistant.java" beforeDir="false" afterPath="$PROJECT_DIR$/langchain4j-examples/ai-services/src/main/java/com/example/ai_platform/services/MathAssistant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/langchain4j-examples/ai-platform/src/main/java/com/example/ai_platform/tools/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/langchain4j-examples/ai-services/src/main/java/com/example/ai_platform/tools/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/langchain4j-examples/ai-platform/src/main/java/com/example/ai_platform/tools/ItemDispatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/langchain4j-examples/ai-services/src/main/java/com/example/ai_platform/tools/ItemDispatcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/langchain4j-examples/ai-platform/src/main/java/com/example/ai_platform/tools/ItemStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/langchain4j-examples/ai-services/src/main/java/com/example/ai_platform/tools/ItemStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/langchain4j-examples/ai-platform/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/langchain4j-examples/ai-services/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/langchain4j-examples/ai-platform/src/test/java/com/example/ai_platform/AiPlatformApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/langchain4j-examples/ai-services/src/test/java/com/example/ai_platform/AiPlatformApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain4j-examples/ai-agents/src/main/java/com/example/ai_agents/agents/AudienceEditor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain4j-examples/ai-agents/src/main/java/com/example/ai_agents/agents/StyleEditor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learning-log/2026/04-Apr/2026-04-15_Agentic_Approach_In_LangChain4j.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/langchain4j-examples/ai-agents/src/main/java/com/example/ai_agents/configuration/AiConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/langchain4j-examples/ai-agents/src/main/java/com/example/ai_agents/configuration/AiConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/langchain4j-examples/ai-agents/src/main/java/com/example/ai_agents/controllers/NovelCreatorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/langchain4j-examples/ai-agents/src/main/java/com/example/ai_agents/controllers/NovelCreatorController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -45,10 +34,10 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="3CJLB1eCZeHmjIr81UFblkN5LiE" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -66,9 +55,16 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/ai-studies/learning-log/2026/04-Apr",
+    "nodejs_package_manager_path": "npm"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\ai-studies\learning-log\2026\04-Apr" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="ai-agents [spring-boot:run]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
       <MavenSettings>

@@ -1,6 +1,8 @@
 package com.example.ai_agents.controllers;
 
+import com.example.ai_agents.agents.AudienceEditor;
 import com.example.ai_agents.agents.CreativeWriter;
+import com.example.ai_agents.agents.StyleEditor;
 import dev.langchain4j.agentic.AgenticServices;
 import dev.langchain4j.agentic.UntypedAgent;
 import dev.langchain4j.model.chat.ChatModel;
@@ -19,6 +21,8 @@ public class NovelCreatorController
 
     UntypedAgent novelCreator;
     CreativeWriter creativeWriter;
+    AudienceEditor audienceEditor;
+    StyleEditor styleEditor;
 
     NovelCreatorController(ChatModel model) {
 
@@ -28,19 +32,36 @@ public class NovelCreatorController
                 .outputKey("story")
                 .build();
 
-        novelCreator = AgenticServices
-                .sequenceBuilder()
-                .subAgents(creativeWriter)
+        audienceEditor = AgenticServices
+                .agentBuilder(AudienceEditor.class)
+                .chatModel(model)
                 .outputKey("story")
                 .build();
 
+        styleEditor = AgenticServices
+                .agentBuilder(StyleEditor.class)
+                .chatModel(model)
+                .outputKey("story")
+                .build();
 
+        /* TODO - Could these be shared beans?
+            What are the standards for agents used in the flows in terms of instances and sharing? */
+        novelCreator = AgenticServices
+                .sequenceBuilder()
+                .subAgents(creativeWriter, audienceEditor, styleEditor)
+                .outputKey("story")
+                .build();
     }
 
     @GetMapping("/createstory")
-    public String createStory(@RequestParam(value = "topic", defaultValue = "small elevator talk") String topic) {
+    public String createStory(
+            @RequestParam(value = "topic", defaultValue = "small elevator talk") String topic
+            , @RequestParam(value = "style", defaultValue = "informal") String style
+            , @RequestParam(value = "audience", defaultValue = "adults") String audience) {
         Map<String, Object> input = new HashMap<>();
         input.put("topic", topic);
+        input.put("style", style);
+        input.put("audience", audience);
         return (String) novelCreator.invoke(input);
     }
 
