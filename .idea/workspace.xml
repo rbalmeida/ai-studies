@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4b02591-49c2-4758-a8e0-399cf58a8028" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/langchain4j-examples/ai-agents/src/main/java/com/example/ai_agents/agents/AudienceEditor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/langchain4j-examples/ai-agents/src/main/java/com/example/ai_agents/agents/StyleEditor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learning-log/2026/04-Apr/2026-04-15_Agentic_Approach_In_LangChain4j.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/langchain4j-examples/ai-agents/src/main/java/com/example/ai_agents/configuration/AiConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/langchain4j-examples/ai-agents/src/main/java/com/example/ai_agents/configuration/AiConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/langchain4j-examples/ai-agents/src/main/java/com/example/ai_agents/controllers/NovelCreatorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/langchain4j-examples/ai-agents/src/main/java/com/example/ai_agents/controllers/NovelCreatorController.java" afterDir="false" />
-    </list>
+    <list default="true" id="a4b02591-49c2-4758-a8e0-399cf58a8028" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
