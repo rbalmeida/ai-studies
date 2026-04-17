@@ -1,8 +1,6 @@
 package com.example.ai_agents.controllers;
 
-import com.example.ai_agents.agents.AudienceEditor;
-import com.example.ai_agents.agents.CreativeWriter;
-import com.example.ai_agents.agents.StyleEditor;
+import com.example.ai_agents.agents.*;
 import dev.langchain4j.agentic.AgenticServices;
 import dev.langchain4j.agentic.UntypedAgent;
 import dev.langchain4j.model.chat.ChatModel;
@@ -19,10 +17,14 @@ import java.util.Map;
 public class NovelCreatorController
 {
 
-    UntypedAgent novelCreator;
     CreativeWriter creativeWriter;
     AudienceEditor audienceEditor;
     StyleEditor styleEditor;
+    StyleScorer styleScorer;
+
+    UntypedAgent novelCreator;
+    UntypedAgent styleReviewLoop;
+    StyledWriter styledWriter;
 
     NovelCreatorController(ChatModel model) {
 
@@ -44,6 +46,12 @@ public class NovelCreatorController
                 .outputKey("story")
                 .build();
 
+        styleScorer = AgenticServices
+                .agentBuilder(StyleScorer.class)
+                .chatModel(model)
+                .outputKey("score")
+                .build();
+
         /* TODO - Could these be shared beans?
             What are the standards for agents used in the flows in terms of instances and sharing? */
         novelCreator = AgenticServices
@@ -51,6 +59,22 @@ public class NovelCreatorController
                 .subAgents(creativeWriter, audienceEditor, styleEditor)
                 .outputKey("story")
                 .build();
+
+        styleReviewLoop = AgenticServices
+                .loopBuilder()
+                .subAgents(styleScorer, styleEditor)
+                .maxIterations(5)
+                .exitCondition(agenticScope ->
+                                agenticScope.readState("score", 0.0) >= 0.8)
+                .outputKey("story")
+                .build();
+
+        styledWriter = AgenticServices
+                .sequenceBuilder(StyledWriter.class)
+                .subAgents(creativeWriter, styleReviewLoop)
+                .outputKey("story")
+                .build();
+
     }
 
     @GetMapping("/createstory")
@@ -63,6 +87,14 @@ public class NovelCreatorController
         input.put("style", style);
         input.put("audience", audience);
         return (String) novelCreator.invoke(input);
+    }
+
+    @GetMapping("/createstoryandscore")
+    public String createStoryWithStyleScorer(
+            @RequestParam(value = "topic", defaultValue = "small elevator talk") String topic
+            , @RequestParam(value = "style", defaultValue = "informal") String style) {
+
+       return styledWriter.writeStoryWithStyle(topic, style);
     }
 
 }

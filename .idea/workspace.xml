@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4b02591-49c2-4758-a8e0-399cf58a8028" name="Changes" comment="" />
+    <list default="true" id="a4b02591-49c2-4758-a8e0-399cf58a8028" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/langchain4j-examples/ai-agents/src/main/java/com/example/ai_agents/agents/StyleScorer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain4j-examples/ai-agents/src/main/java/com/example/ai_agents/agents/StyledWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/langchain4j-examples/ai-agents/src/main/java/com/example/ai_agents/controllers/NovelCreatorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/langchain4j-examples/ai-agents/src/main/java/com/example/ai_agents/controllers/NovelCreatorController.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,23 +41,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Maven.ai-agents [clean,test].executor": "Run",
-    "Maven.ai-agents [spring-boot:run].executor": "Run",
-    "Maven.ai-services [clean,test].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/ai-studies/learning-log/2026/04-Apr",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven.ai-agents [clean,test].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.ai-agents [spring-boot:run].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.ai-services [clean,test].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/ai-studies/learning-log/2026/04-Apr&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\ai-studies\learning-log\2026\04-Apr" />
