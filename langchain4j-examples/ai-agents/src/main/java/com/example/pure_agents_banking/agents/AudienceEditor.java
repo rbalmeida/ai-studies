@@ -1,4 +1,4 @@
-package com.example.ai_agents.agents;
+package com.example.pure_agents_banking.agents;
 
 import dev.langchain4j.agentic.Agent;
 import dev.langchain4j.service.UserMessage;

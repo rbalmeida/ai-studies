@@ -4,11 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4b02591-49c2-4758-a8e0-399cf58a8028" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/langchain4j-examples/ai-agents/src/main/java/com/example/ai_agents/agents/StyleScorer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/langchain4j-examples/ai-agents/src/main/java/com/example/ai_agents/agents/StyledWriter.java" afterDir="false" />
+    <list default="true" id="1bb9ec19-25a8-4f47-a541-d88ed7ff7b52" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/langchain4j-examples/pure-agents-banking/src/main/java/com/example/pure_agents_banking/agents/CreditAgent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain4j-examples/pure-agents-banking/src/main/java/com/example/pure_agents_banking/agents/ExchangeAgent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain4j-examples/pure-agents-banking/src/main/java/com/example/pure_agents_banking/agents/WithdrawAgent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain4j-examples/pure-agents-banking/src/main/java/com/example/pure_agents_banking/controllers/BankController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain4j-examples/pure-agents-banking/src/main/java/com/example/pure_agents_banking/tools/BankTool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain4j-examples/pure-agents-banking/src/main/java/com/example/pure_agents_banking/tools/ExchangeTool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learning-log/2026/04-Apr/2026-04-22_LangChain4j_Pure_agentic_AI.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/langchain4j-examples/ai-agents/src/main/java/com/example/ai_agents/controllers/NovelCreatorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/langchain4j-examples/ai-agents/src/main/java/com/example/ai_agents/controllers/NovelCreatorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/langchain4j-examples/ai-agents/src/main/java/com/example/ai_agents/AiAgentsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/langchain4j-examples/ai-agents/src/main/java/com/example/pure_agents_banking/AiAgentsApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/langchain4j-examples/ai-agents/src/main/java/com/example/ai_agents/agents/AudienceEditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/langchain4j-examples/ai-agents/src/main/java/com/example/pure_agents_banking/agents/AudienceEditor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/langchain4j-examples/ai-agents/src/main/java/com/example/ai_agents/agents/CreativeWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/langchain4j-examples/ai-agents/src/main/java/com/example/pure_agents_banking/agents/CreativeWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/langchain4j-examples/ai-agents/src/main/java/com/example/ai_agents/agents/StyleEditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/langchain4j-examples/ai-agents/src/main/java/com/example/pure_agents_banking/agents/StyleEditor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/langchain4j-examples/ai-agents/src/main/java/com/example/ai_agents/agents/StyleScorer.java" beforeDir="false" afterPath="$PROJECT_DIR$/langchain4j-examples/ai-agents/src/main/java/com/example/pure_agents_banking/agents/StyleScorer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/langchain4j-examples/ai-agents/src/main/java/com/example/ai_agents/agents/StyledWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/langchain4j-examples/ai-agents/src/main/java/com/example/pure_agents_banking/agents/StyledWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/langchain4j-examples/ai-agents/src/main/java/com/example/ai_agents/configuration/AiConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/langchain4j-examples/ai-agents/src/main/java/com/example/pure_agents_banking/configuration/AiConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/langchain4j-examples/ai-agents/src/main/java/com/example/ai_agents/controllers/NovelCreatorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/langchain4j-examples/ai-agents/src/main/java/com/example/pure_agents_banking/controllers/NovelCreatorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/langchain4j-examples/ai-agents/src/test/java/com/example/ai_agents/AiAgentsApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/langchain4j-examples/ai-agents/src/test/java/com/example/pure_agents_banking/AiAgentsApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +34,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Class" />
         <option value="Interface" />
       </list>
     </option>
@@ -32,39 +49,32 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: 7
-}</component>
-  <component name="ProjectId" id="3CJLB1eCZeHmjIr81UFblkN5LiE" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="3ChlDGxgpKQUZvNp28e1zosRrm7" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Maven.ai-agents [clean,test].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.ai-agents [spring-boot:run].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.ai-services [clean,test].executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/ai-studies/learning-log/2026/04-Apr&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.pure-agents-banking [clean,test].executor": "Run",
+    "Maven.pure-agents-banking [spring-boot:run].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "nodejs_package_manager_path": "npm"
   }
-}</component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\ai-studies\learning-log\2026\04-Apr" />
-    </key>
-  </component>
+}]]></component>
   <component name="RunManager">
-    <configuration name="ai-agents [spring-boot:run]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+    <configuration name="pure-agents-banking [spring-boot:run]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
         <option name="myRunnerSettings" />
@@ -88,7 +98,7 @@
               <list />
             </option>
             <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$/langchain4j-examples/ai-agents" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/langchain4j-examples/pure-agents-banking" />
           </MavenRunnerParameters>
         </option>
       </MavenSettings>
@@ -97,11 +107,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a4b02591-49c2-4758-a8e0-399cf58a8028" name="Changes" comment="" />
-      <created>1776098588900</created>
+      <changelist id="1bb9ec19-25a8-4f47-a541-d88ed7ff7b52" name="Changes" comment="" />
+      <created>1776845562381</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1776098588900</updated>
+      <updated>1776845562381</updated>
     </task>
     <servers />
   </component>

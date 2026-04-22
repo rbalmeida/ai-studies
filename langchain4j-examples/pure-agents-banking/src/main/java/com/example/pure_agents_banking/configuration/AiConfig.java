@@ -1,4 +1,4 @@
-package com.example.ai_agents.configuration;
+package com.example.pure_agents_banking.configuration;
 
 import dev.langchain4j.memory.chat.ChatMemoryProvider;
 import dev.langchain4j.memory.chat.MessageWindowChatMemory;
@@ -20,7 +20,7 @@ public class AiConfig {
     ChatModel chatLanguageModel() {
         return OllamaChatModel.builder()
                 .baseUrl("http://localhost:11434") // Default Ollama port
-                .modelName("gemma2:2b")               // Or your preferred model
+                .modelName("llama3.1")               // Or your preferred model
                 //.listeners(Collections.singletonList(toolUsageListener))
                 .build();
     }

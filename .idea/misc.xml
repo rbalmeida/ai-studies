@@ -6,6 +6,7 @@
       <list>
         <option value="$PROJECT_DIR$/langchain4j-examples/ai-agents/pom.xml" />
         <option value="$PROJECT_DIR$/langchain4j-examples/ai-services/pom.xml" />
+        <option value="$PROJECT_DIR$/langchain4j-examples/pure-agents-banking/pom.xml" />
       </list>
     </option>
   </component>

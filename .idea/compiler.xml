@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="ai-services" />
         <module name="ai-agents" />
+        <module name="pure-agents-banking" />
       </profile>
     </annotationProcessing>
   </component>
@@ -15,6 +16,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="ai-agents" options="-parameters" />
       <module name="ai-services" options="-parameters" />
+      <module name="pure-agents-banking" options="-parameters" />
     </option>
   </component>
 </project>

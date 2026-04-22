@@ -3,5 +3,6 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/langchain4j-examples/ai-agents/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/langchain4j-examples/ai-services/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/langchain4j-examples/pure-agents-banking/src/main/java" charset="UTF-8" />
   </component>
 </project>
